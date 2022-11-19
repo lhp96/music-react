@@ -15,7 +15,7 @@ const router = createBrowserRouter([
         element: <Recommend />,
       },
       {
-        path: "/rand",
+        path: "/rank",
         element: <Rank />,
       },
       {
