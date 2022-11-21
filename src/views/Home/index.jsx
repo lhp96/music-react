@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import { Top, Tab, TabItem } from "./style";
-function Home(props) {
+const Home = (props) => {
   return (
     <div>
       <Top>
@@ -29,6 +29,6 @@ function Home(props) {
       <Outlet />
     </div>
   );
-}
+};
 
 export default React.memo(Home);
