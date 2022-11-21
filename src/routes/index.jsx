@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
-import Home from "../application/Home";
-import Recommend from "../application/Recommend";
-import Singers from "../application/Singers";
-import Rank from "../application/Rank";
-import Error from "../application/404";
+import Home from "../views/Home";
+import Recommend from "../views/Recommend";
+import Singers from "../views/Singers";
+import Rank from "../views/Rank";
+import Error from "../views/404";
 const router = createBrowserRouter([
   {
     path: "/",
